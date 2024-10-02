@@ -1,0 +1,45 @@
+<app-layout>
+
+    <div.fixed.h-screen.w-screen.flex.items-center.justify-center.overflow-y-hidden>
+
+        <div.secondary.p-12.shadow-xl.border.border-black.space-y-4.w-96>
+            <div.secondary.text-3xl>Welcome!</div>
+            <div class="">
+                <input.w-full.border.border-black.outline-none.p-2.shadow-inner
+                    type="text"
+                    placeholder="Username"
+                >
+            </div>
+            <div class="">
+                <input.w-full.border.border-black.outline-none.p-2.shadow-inner
+                    type="email"
+                    placeholder="E-Mail"
+                >
+            </div>
+
+            <div class="">
+                <input.w-full.border.border-black.outline-none.p-2.shadow-inner
+                    type="password"
+                    placeholder="Password"
+                >
+            </div>
+            <div class="">
+                <input.w-full.border.border-black.outline-none.p-2.shadow-inner
+                    type="password"
+                    placeholder="Repeat Password"
+                >
+            </div>
+            <label>
+                <input#cbox1 type="checkbox" value="first_checkbox">
+                 I agree with the
+                <a href="/tos" class="hover:underline text-blue-500">
+                    Terms of Service
+                </a>
+            </label>
+            <br>
+            <div class="primary p-2 border border-black hover:bg-black hover:text-white cursor-pointer">
+                Register
+            </div>
+        </div>
+    </div>
+</app-layout>
